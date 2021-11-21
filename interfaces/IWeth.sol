@@ -1,4 +1,6 @@
-pragma solidity ^0.4.19;
+// Got this from: https://kovan.etherscan.io/token/0xd0a1e359811322d97991e03f863a0c30c2cf029c
+
+pragma solidity ^0.8.0;
 
 interface IWeth {
   function allowance(address owner, address spender) external view returns (uint256 remaining);
